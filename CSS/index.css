@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body{
+
+        background-image: url("IMG/1.jpg");
+
+}
+
 html,body{
     overflow-y: hidden;
     overflow-x: hidden;
@@ -30,6 +36,7 @@ a{
 img{
    position: absolute;
    width: 100%;
-    margin-top: -285px;
+   height: 140%;
+   margin-top: -285px;
   
 }
