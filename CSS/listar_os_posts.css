@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, MistyRose, PeachPuff);
+}
+
+.table{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    background-color: SandyBrown;
+    width: 80%;
+    font-size: 1.8vw; 
+    box-shadow: 2vw 2vw 2vw rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+thead{
+    background-color:Chocolate;
+    font-size:2.1vw;
+    color:white;
+    text-shadow: 0.3vw 0.2vw black;
+
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home {
+    position: absolute;
+    font-size: 1vw;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0.5vw;
+    border-radius: 5px;
+    margin: 1.2vw;
+    margin-top: -3.5%;
+}
+
+.home:hover {
+    color: black;
+    border: 0.2vw solid black;
+    font-size: 1.3vw;
+    font-family: "Harry Potter", sans-serif;
+    background-image: linear-gradient(to left, Wheat, NavajoWhite, SandyBrown);
+}

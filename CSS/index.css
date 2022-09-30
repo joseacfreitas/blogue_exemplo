@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+.menu{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 50%;
+}
+
+a{ 
+    margin-right: 20px;
+    font-size: 25px;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: DarkSlateBlue;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+img{
+   position: absolute;
+   width: 100%;
+    margin-top: -285px;
+  
+}

@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    background-image: linear-gradient(to right, MistyRose, PeachPuff);
+}
+
+html,body{
+    overflow-y: hidden;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form{
+    width: 32%;
+    height: 100vh;
+    margin-top: 3%;
+    margin-left: 34%; 
+    padding: 15px;
+}
+
+input{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: PapayaWhip;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 35px;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 22px;
+    background-color: PapayaWhip;
+}
+
+.btn{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to left, Wheat, NavajoWhite, SandyBrown);
+    margin-top: 45px;
+    
+}
+
+.home {
+    position: absolute;
+    font-size: 1vw;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0.5vw;
+    border-radius: 5px;
+    margin: 1.2vw;
+}
+
+.home:hover {
+    color: black;
+    border: 0.2vw solid black;
+    font-size: 1.3vw;
+    font-family: "Harry Potter", sans-serif;
+    background-image: linear-gradient(to left, Wheat, NavajoWhite, SandyBrown);
+}
+
